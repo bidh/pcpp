@@ -1,0 +1,22 @@
+Exercise 4.3
+
+6. Not really. The execution is almost the same (~half a second) for both versions:
+sequential and parallel. Maybe because the computation is too simple.
+
+12. The parallel version is very slow. It didn't even finish after 1m and 30s. 
+
+13. Using groupingByConcurrent in the example above made the parallel version really fast.
+It is twice as fast as the sequential one! 
+Parallel runs in 10s while sequential in 20s.
+
+Exercise 4.4
+
+2. The parallel version is three times faster than the sequential one.
+Parallel runs in 4s while sequential in 12s.
+
+4. Takes ~10 seconds
+
+5. We get different results while running the program more times. The DoubleSupplier object
+in this case has state which changes (i.e. private int current). As we have mentioned, 
+we should not use mutable objects in parallel computations unless their changes are 
+synchronized (which is not the case in this particular example).
