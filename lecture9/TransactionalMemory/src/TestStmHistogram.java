@@ -24,21 +24,12 @@ import java.util.concurrent.CyclicBarrier;
 
 class TestStmHistogram {
   public static void main(String[] args) {
-    Histogram total=new StmHistogram(30);
-    for(int i=0;i<10;i++){
-      total.transferBins(countPrimeFactorsWithStmHistogram());
-      try{Thread.sleep(30);}catch (Exception e){}
-    }
-
-    System.out.println("Histogram ---- total");
-    dump(total);
-    System.out.println("Histogram ---- total.transferBins(total)");
-    total.transferBins(total);
-    dump(total);
+    countPrimeFactorsWithStmHistogram();
   }
 
-  private static Histogram countPrimeFactorsWithStmHistogram() {
+  private static void countPrimeFactorsWithStmHistogram() {
     final Histogram histogram = new StmHistogram(30);
+    final Histogram total = new StmHistogram(30);
     final int range = 4_000_000;
     final int threadCount = 10, perThread = range / threadCount;
     final CyclicBarrier startBarrier = new CyclicBarrier(threadCount + 1), 
@@ -57,9 +48,27 @@ class TestStmHistogram {
 	    });
         threads[t].start();
     }
-    try { startBarrier.await(); } catch (Exception exn) { }
-    try { stopBarrier.await(); } catch (Exception exn) { }
-    return histogram;
+    try {
+      startBarrier.await();
+    } catch (Exception exn) {
+    }
+
+    for (int i = 0; i < 200; i++) {
+      total.transferBins(histogram);
+      try {
+        Thread.sleep(30);
+      } catch (InterruptedException exc) {
+      }
+    }
+
+    try {
+      stopBarrier.await();
+    } catch (Exception exn) {
+    }
+    //dump(histogram);
+    //dump(total);
+    total.transferBins(total);
+    dump(total);
   }
 
   public static void dump(Histogram histogram) {
@@ -129,25 +138,27 @@ class StmHistogram implements Histogram {
   }
 
   public int getAndClear(int bin) {
-    final int[] resultF = new int[1];
-    atomic(()->{
-        resultF[0] =counts[bin].get();
-        counts[bin].set(0);
+    return atomic(()->{
+      int result=counts[bin].get();
+      counts[bin].set(0);
+      return result;
     });
-    return resultF[0];
   }
 
   public void transferBins(Histogram hist) {
     final StmHistogram thisHistogram = this, thatHistogram = (StmHistogram) hist;
     atomic(() -> {
       for (int i = 0; i < this.counts.length; i++) {
-        thisHistogram.counts[i].set(thisHistogram.counts[i].get() + thatHistogram.counts[i].get());
-        thatHistogram.counts[i].set(0);
+        thisHistogram.counts[i].set(thisHistogram.counts[i].get()+thatHistogram.getAndClear(i));
       }
     });
-    for(int i=0;i<30;i++){
-      System.out.println(thatHistogram.getCount(i));
-    }
   }
+}
+class TimerS {
+  private long start = 0, spent = 0;
+  public TimerS() { play(); }
+  public double check() { return (start==0 ? spent : System.nanoTime()-start+spent)/1e9; }
+  public void pause() { if (start != 0) { spent += System.nanoTime()-start; start = 0; } }
+  public void play() { if (start == 0) start = System.nanoTime(); }
 }
 
