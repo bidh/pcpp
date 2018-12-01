@@ -16,17 +16,19 @@ import java.util.function.IntToDoubleFunction;
 
 public class TestStripedMap {
     public static void main(String[] args) {
+        // to test sequential test todo uncomment
+        // testAllMaps();
         // Lecture 8
         final ExecutorService pool = Executors.newCachedThreadPool();
-        final OurMap<Integer, String> map = new StripedWriteMap<>(77, 7);
+        final OurMap<Integer, String> map = new StripedMap<>(77, 7);
         // final OurMap<Integer, String> map = new WrapConcurrentHashMap<>();
         final int threadCount = 16;
         final ConcurrentMapTest testing = new ConcurrentMapTest(map,pool,threadCount,100_000);
         System.out.printf("%nParallel test: %s", map.getClass());
         testing.test();
-        /*for (int i = 0; i < threadCount; i++) {
-            testing.testSingleThread(i);
-        }*/
+        //for (int i = 0; i < threadCount; i++) {
+        //    testing.testSingleThread(i);
+        //}
         pool.shutdown();
         System.out.println("... passed");
     }
@@ -169,8 +171,8 @@ public class TestStripedMap {
 
     private static void testAllMaps() {
         //testMap(new SynchronizedMap<Integer,String>(25));
-        //testMap(new StripedMap<Integer,String>(25, 5));
-        testMap(new StripedWriteMap<Integer,String>(25, 5));
+        testMap(new StripedMap<Integer,String>(25, 5));
+        //testMap(new StripedWriteMap<Integer,String>(25, 5));
         //testMap(new WrapConcurrentHashMap<Integer,String>());
     }
 
@@ -252,7 +254,7 @@ class Test {
             throw new Exception(String.format("ERROR: assertTrue"));
     }
 }
-
+// todo concurrent tests
 class ConcurrentMapTest extends Test {
     private final OurMap<Integer, String> map;
     private final ExecutorService executor;

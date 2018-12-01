@@ -1,0 +1,36 @@
+% hello world program
+-module(helloworld).
+-export([start/0]).
+
+start() ->
+    io:fwrite("Hello, world!\n").
+
+
+
+% hello world program for double value
+-module(helloworld).
+-export([start/0,double/1]).
+
+start() ->
+    io:fwrite(double(5)).
+    
+double(X) -> times(X, 2). % public
+times(X, N) -> X * N.
+
+%code for pattern matching
+
+-module(helloworld).
+-export([start/0,area/1]).
+
+
+start () -> io:write(area({square,5})).
+
+area( {square, L} ) -> 
+L * L;
+area( {rectangle, X, Y} ) ->
+X * Y;
+area( {circle, R} ) ->
+3.14159 * R * R;
+area( {triangle, A, B, C} ) ->
+S = (A + B + C)/2, 
+math:sqrt(S*(S-A)*(S-B)*(S-C)).
