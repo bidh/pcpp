@@ -2,40 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e240b7b3-980f-48b9-bfb6-d6e846f58a26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../lecture10/pcpp-week10/CAS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture10/pcpp-week10/CAS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture2/pcpp-week02/BasicDesign.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture3/Benchmarking.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture4/pcpp-week04/Streams/Streams.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture6/pcpp-week06/HashMap/TestLongAdders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture6/pcpp-week06/HashMap/TestStripedMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/ConcurrentMapTest$Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/ConcurrentMapTest$Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/ConcurrentMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/ConcurrentMapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/StripedMap$ItemNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/StripedMap$ItemNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/StripedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/StripedMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/StripedWriteMap$Holder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/StripedWriteMap$Holder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/StripedWriteMap$ItemNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/StripedWriteMap$ItemNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/StripedWriteMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/StripedWriteMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/SynchronizedMap$ItemNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/SynchronizedMap$ItemNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/SynchronizedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/SynchronizedMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/TestStripedMap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/TestStripedMap$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/TestStripedMap$Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/TestStripedMap$Timer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/TestStripedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/TestStripedMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/WrapConcurrentHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/out/production/TestingConcurrentApps/WrapConcurrentHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/src/StripedMap$ItemNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/src/StripedMap$ItemNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/src/StripedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/src/StripedMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/src/StripedWriteMap$Holder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/src/StripedWriteMap$Holder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/src/StripedWriteMap$ItemNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/src/StripedWriteMap$ItemNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/src/StripedWriteMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/src/StripedWriteMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/src/SynchronizedMap$ItemNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/src/SynchronizedMap$ItemNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/src/SynchronizedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/src/SynchronizedMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/src/TestStripedMap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/src/TestStripedMap$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/src/TestStripedMap$Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/src/TestStripedMap$Timer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/src/TestStripedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/src/TestStripedMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/src/TestStripedMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/src/TestStripedMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture8/src/WrapConcurrentHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture8/src/WrapConcurrentHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lecture9/TransactionalMemory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture9/TransactionalMemory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MSQueue/ConcurrentEnqDeqTest$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MSQueue/ConcurrentEnqDeqTest$Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MSQueue/ConcurrentEnqDeqTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MSQueue/LockingQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MSQueue/LockingQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MSQueue/MSQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MSQueue/MSQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MSQueue/MSQueueRefl$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MSQueue/MSQueueRefl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MSQueue/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MSQueue/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MSQueue/TestMSQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestMSQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestMSQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecture12/JavaAkka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture12/JavaAkka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecture3/Benchmarking/TestCountPrimesThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lecture3/Benchmarking/TestCountPrimesThreads.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,38 +27,46 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MSQueue$TestMSQueue.ic" NAME="TestMSQueue Coverage Results" MODIFIED="1543083272333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MSQueue$TestChaseLevQueue.ic" NAME="TestChaseLevQueue Coverage Results" MODIFIED="1544110161733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1535062410">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="5" />
+          <entry key="java" value="20" />
+          <entry key="scala" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="20" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3933" />
+          <entry key="java" value="7199" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3933" />
+          <entry key="JAVA" value="7199" />
         </counts>
       </usages-collector>
     </session>
@@ -85,18 +74,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TestMSQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/TestUnionFind.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="168" column="26" lean-forward="true" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
+            <state relative-caret-position="135">
+              <caret line="84" column="35" lean-forward="true" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
               <folding>
+                <element signature="e#0#9911#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#1430#1431#0" expanded="true" />
-                <element signature="e#1467#1468#0" expanded="true" />
-                <element signature="e#5168#5169#0" expanded="true" />
-                <element signature="e#5221#5222#0" expanded="true" />
-                <element signature="class#MSQueue#0" />
-                <element signature="class#MSQueueRefl#0" />
+                <element signature="e#5105#5106#0" expanded="true" />
+                <element signature="e#5146#5147#0" expanded="true" />
+                <element signature="e#5229#5230#0" expanded="true" />
+                <element signature="e#5269#5270#0" expanded="true" />
+                <element signature="e#7421#7422#0" expanded="true" />
+                <element signature="e#7462#7463#0" expanded="true" />
+                <element signature="e#7554#7555#0" expanded="true" />
+                <element signature="e#7594#7595#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,7 +109,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/../../../lecture8/src/TestStripedMap.java" />
+        <option value="$PROJECT_DIR$/../../../lecture3/Benchmarking/TestCountPrimesThreads.java" />
         <option value="$PROJECT_DIR$/src/TestMSQueue.java" />
+        <option value="$PROJECT_DIR$/src/TestUnionFind.java" />
+        <option value="$PROJECT_DIR$/src/TestChaseLevQueue.java" />
       </list>
     </option>
   </component>
@@ -133,7 +129,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
@@ -158,19 +154,25 @@
               <item name="MSQueue" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MSQueue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MSQueue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TestChaseLevQueue.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543656580337" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../lecture8" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544110248501" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../lecture12/JavaAkka" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -186,7 +188,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestChaseLevQueue">
+    <configuration name="TestChaseLevQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestChaseLevQueue" />
+      <module name="MSQueue" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMSQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestMSQueue" />
       <module name="MSQueue" />
@@ -194,8 +203,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestUnionFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestUnionFind" />
+      <module name="MSQueue" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestMSQueue" />
+      <item itemvalue="Application.TestChaseLevQueue" />
+      <item itemvalue="Application.TestUnionFind" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestChaseLevQueue" />
+        <item itemvalue="Application.TestUnionFind" />
         <item itemvalue="Application.TestMSQueue" />
       </list>
     </recent_temporary>
@@ -212,18 +235,24 @@
       <updated>1542905304968</updated>
       <workItem from="1542905308359" duration="15988000" />
       <workItem from="1543081700383" duration="8598000" />
-      <workItem from="1543411332779" duration="14629000" />
+      <workItem from="1543411332779" duration="15229000" />
+      <workItem from="1543790698441" duration="2703000" />
+      <workItem from="1543960596171" duration="11483000" />
+      <workItem from="1544013908450" duration="1272000" />
+      <workItem from="1544016020645" duration="13000" />
+      <workItem from="1544016162237" duration="5049000" />
+      <workItem from="1544022109553" duration="11223000" />
+      <workItem from="1544048726623" duration="27424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39215000" />
+    <option name="totallyTimeSpent" value="98982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12307692" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19919029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -232,7 +261,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.54884547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38721138" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -242,6 +271,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -260,13 +290,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../lecture8/src/TestStripedMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="120" column="44" selection-start-line="120" selection-start-column="38" selection-end-line="120" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../lecture8/TestingConcurrentApps.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -277,13 +300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LockFreeDS/TestMSQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1766" />
@@ -291,25 +307,158 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../lecture10/CAS/TestPseudoRandom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1953">
+        <state relative-caret-position="-1953" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/SentimentSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../lecture3/Benchmarking/Benchmark.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../lecture5/Tasks/TestCountPrimesTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#5050#0" expanded="true" />
+            <element signature="e#0#7372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../lecture8/src/TestStripedMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#3911#3912#0" expanded="true" />
+            <element signature="e#3979#3980#0" expanded="true" />
+            <element signature="e#13097#13098#0" expanded="true" />
+            <element signature="e#13153#13154#0" expanded="true" />
+            <element signature="e#15205#15206#0" expanded="true" />
+            <element signature="e#15260#15261#0" expanded="true" />
+            <element signature="e#15869#15870#0" expanded="true" />
+            <element signature="e#15924#15925#0" expanded="true" />
+            <element signature="e#16924#16925#0" expanded="true" />
+            <element signature="e#16957#16958#0" expanded="true" />
+            <element signature="e#27554#27555#0" expanded="true" />
+            <element signature="e#27595#27596#0" expanded="true" />
+            <element signature="e#36260#36261#0" expanded="true" />
+            <element signature="e#36301#36302#0" expanded="true" />
+            <element signature="e#38052#38053#0" expanded="true" />
+            <element signature="e#38088#38089#0" expanded="true" />
+            <element signature="e#38123#38124#0" expanded="true" />
+            <element signature="e#38165#38166#0" expanded="true" />
+            <element signature="e#38540#38541#0" expanded="true" />
+            <element signature="e#38588#38589#0" expanded="true" />
+            <element signature="e#38613#38614#0" expanded="true" />
+            <element signature="e#38653#38654#0" expanded="true" />
+            <element signature="e#38683#38684#0" expanded="true" />
+            <element signature="e#38726#38727#0" expanded="true" />
+            <element signature="e#38764#38765#0" expanded="true" />
+            <element signature="e#38815#38816#0" expanded="true" />
+            <element signature="e#38843#38844#0" expanded="true" />
+            <element signature="e#38886#38887#0" expanded="true" />
+            <element signature="e#38911#38912#0" expanded="true" />
+            <element signature="e#38951#38952#0" expanded="true" />
+            <element signature="e#39002#39003#0" expanded="true" />
+            <element signature="e#39067#39068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../lecture3/Benchmarking/TestCountPrimesThreads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="93" column="34" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LockFreeDS/TestChaseLevQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="206" column="21" selection-end-line="216" />
+          <folding>
+            <element signature="e#0#6859#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LockFreeDS/TestUnionFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="322" />
+          <folding>
+            <element signature="e#0#8839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="292" column="11" selection-start-line="292" selection-start-column="11" selection-end-line="292" selection-end-column="11" />
+          <folding>
+            <element signature="e#9581#9582#0" expanded="true" />
+            <element signature="e#9616#9617#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestMSQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="168" column="26" lean-forward="true" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
+        <state relative-caret-position="393">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding>
+            <element signature="e#0#14685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestChaseLevQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="170" column="35" selection-start-line="170" selection-start-column="35" selection-end-line="170" selection-end-column="35" />
+          <folding>
+            <element signature="method#testDeque#0;class#TestChaseLevQueue#0" />
+            <element signature="method#multiQueueMultiThreadCL#0;class#TestChaseLevQueue#0" />
+            <element signature="class#Timer#0;class#TestChaseLevQueue#0" />
+            <element signature="method#mqmtWorkers#0;class#TestChaseLevQueue#0" />
+            <element signature="method#swap#0;class#TestChaseLevQueue#0" />
+            <element signature="method#getTask#0;class#TestChaseLevQueue#0" />
+            <element signature="class#SortTask#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestUnionFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="84" column="35" lean-forward="true" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#9911#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
-            <element signature="e#5168#5169#0" expanded="true" />
-            <element signature="e#5221#5222#0" expanded="true" />
-            <element signature="class#MSQueue#0" />
-            <element signature="class#MSQueueRefl#0" />
+            <element signature="e#5105#5106#0" expanded="true" />
+            <element signature="e#5146#5147#0" expanded="true" />
+            <element signature="e#5229#5230#0" expanded="true" />
+            <element signature="e#5269#5270#0" expanded="true" />
+            <element signature="e#7421#7422#0" expanded="true" />
+            <element signature="e#7462#7463#0" expanded="true" />
+            <element signature="e#7554#7555#0" expanded="true" />
+            <element signature="e#7594#7595#0" expanded="true" />
           </folding>
         </state>
       </provider>

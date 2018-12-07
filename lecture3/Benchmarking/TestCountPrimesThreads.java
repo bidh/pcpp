@@ -15,8 +15,8 @@ public class TestCountPrimesThreads {
     //Mark7("countSequential", i -> countSequential(range));
     for (int c=1; c<=15; c++) {
       final int threadCount = c;
-      Mark7(String.format("countParallelNAL %6d", threadCount), 
-            i -> countParallelNAL(range, threadCount));
+     /* Mark7(String.format("countParallelNAL %6d", threadCount),
+            i -> countParallelNAL(range, threadCount));*/
       Mark7(String.format("countParallelNThreadConfined %6d", threadCount), 
             i -> countParallelNThreadConfined(range, threadCount));
     }

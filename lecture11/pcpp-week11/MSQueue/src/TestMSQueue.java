@@ -1,3 +1,4 @@
+/* uncomment to run the application
 // For week 12
 // sestoft@itu.dk * 2014-11-16
 
@@ -9,13 +10,16 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
+import java.util.function.IntToDoubleFunction;
 
 public class TestMSQueue {
     public static void main(String[] args) {
         //testAllQueues();
-        ExecutorService service= Executors.newCachedThreadPool();
+        // ----uncomment for concurrent test
+        *//*ExecutorService service= Executors.newCachedThreadPool();
         final int nPairs=16;
         MSQueue<Integer> queue=new MSQueue<>();
         ConcurrentEnqDeqTest concurrentEnqDeqTest=new ConcurrentEnqDeqTest(queue,
@@ -23,7 +27,15 @@ public class TestMSQueue {
                 100_000);
         concurrentEnqDeqTest.test(service);
         service.shutdown();
-        System.out.println("....passed");
+        System.out.println("....passed");*//*
+        SystemInfo();
+        final int range = 100_000;
+        MSQueue<Integer> queue=new MSQueue<>();
+        for (int c=1; c<=8; c++) {
+            final int threadCount = c;
+            Mark7(String.format("MSQueueParallelNThreadConfined %6d", threadCount),
+                    i -> countParallelNThreadConfined(queue, range, threadCount));
+        }
     }
     private static void testQueue(UnboundedQueue<Integer> queue){
         System.out.println(queue.getClass());
@@ -35,9 +47,122 @@ public class TestMSQueue {
         assert queue.dequeue()==6;
         assert queue.dequeue()==7;
         assert queue.dequeue()==null;
+        System.out.println("test passed successfully");
     }
     private static void testAllQueues(){
         testQueue(new MSQueue<>());
+    }
+
+    private static long countParallelNThreadConfined(UnboundedQueue<Integer> queue,int range,int threadCount){
+        final AtomicLong al=new AtomicLong(0);
+        final int perThread=range/threadCount;
+        Thread[] enqThreads=new Thread[threadCount];
+        for(int i=0;i<threadCount;i++){
+
+            final int from = perThread * i,
+                    to = (i+1==threadCount) ? range : perThread * (i+1);
+            enqThreads[i]=new Thread(()->{
+               for(int j=from;j<to;j++){
+                   if(isPrime(j)) {
+                       queue.enqueue(j);
+                  }
+               }
+            });
+        }
+        Thread[] deqThreads=new Thread[threadCount];
+        for(int i=0;i<threadCount;i++){
+            deqThreads[i]=new Thread(()->{
+                long count=0;
+                Integer item;
+                item=queue.dequeue();
+                if(item!=null){
+                  if(isPrime(item))
+                     count++;
+                }
+                al.getAndAdd(count);
+            });
+        }
+        for (int t=0; t<threadCount; t++){
+            enqThreads[t].start();
+        }
+
+        try {
+            for (int t=0; t<threadCount; t++){
+                enqThreads[t].join();
+            }
+        } catch (InterruptedException exn) { }
+        for (int t=0; t<threadCount; t++){
+            deqThreads[t].start();
+        }
+
+        try {
+            for (int t=0; t<threadCount; t++){
+                deqThreads[t].join();
+            }
+        } catch (InterruptedException exn) { }
+        return al.intValue();
+    }
+*//*for(int i=nrTrials;i>0;--i){
+        item=queue.dequeue();
+        if(item!=null){
+            sum+=item;
+        }else{
+            i++;
+        }
+    }*//*
+    private static boolean isPrime(int n) {
+        int k = 2;
+        while (k * k <= n && n % k != 0)
+            k++;
+        return n >= 2 && k * k > n;
+    }
+    private static class Timer {
+        private long start, spent = 0;
+        public Timer() { play(); }
+        public double check() { return (System.nanoTime()-start+spent)/1e9; }
+        public void pause() { spent += System.nanoTime()-start; }
+        public void play() { start = System.nanoTime(); }
+    }
+
+    // NB: Modified to show microseconds instead of nanoseconds
+
+    public static double Mark7(String msg, IntToDoubleFunction f) {
+        int n = 10, count = 1, totalCount = 0;
+        double dummy = 0.0, runningTime = 0.0, st = 0.0, sst = 0.0;
+        do {
+            count *= 2;
+            st = sst = 0.0;
+            for (int j=0; j<n; j++) {
+                Timer t = new Timer();
+                for (int i=0; i<count; i++)
+                    dummy += f.applyAsDouble(i);
+                runningTime = t.check();
+                double time = runningTime * 1e6 / count; // microseconds
+                st += time;
+                sst += time * time;
+                totalCount += count;
+            }
+        } while (runningTime < 0.25 && count < Integer.MAX_VALUE/2);
+        double mean = st/n, sdev = Math.sqrt((sst - mean*mean*n)/(n-1));
+        System.out.printf("%-25s %15.1f us %10.2f %10d%n", msg, mean, sdev, count);
+        return dummy / totalCount;
+    }
+
+    public static void SystemInfo() {
+        System.out.printf("# OS:   %s; %s; %s%n",
+                System.getProperty("os.name"),
+                System.getProperty("os.version"),
+                System.getProperty("os.arch"));
+        System.out.printf("# JVM:  %s; %s%n",
+                System.getProperty("java.vendor"),
+                System.getProperty("java.version"));
+        // The processor identifier works only on MS Windows:
+        System.out.printf("# CPU:  %s; %d \"cores\"%n",
+                System.getenv("PROCESSOR_IDENTIFIER"),
+                Runtime.getRuntime().availableProcessors());
+        java.util.Date now = new java.util.Date();
+        System.out.printf("# Date: %s%n",
+                new java.text.SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ").format(now));
     }
 }
 class ConcurrentEnqDeqTest extends Test{
@@ -62,7 +187,7 @@ class ConcurrentEnqDeqTest extends Test{
             for(int i=0;i<nPairs;i++){
                 pool.execute(new Producer());
                 pool.execute(new Consumer());
-            }
+        }
             startBarrier.await();
             stopBarrier.await();
             assertEquals(enqueueSum.get(),dequeueSum.get());
@@ -195,7 +320,7 @@ class MSQueue<T> implements UnboundedQueue<T> {
         Node<T> node = new Node<T>(item, null);
         while (true) {
             Node<T> last = tail.get(), next = last.next.get();
-            if (last == tail.get()) {         // E7
+            //if (last == tail.get()) {         // E7
                 if (next == null) {
                     // In quiescent state, try inserting new node
                     if (last.next.compareAndSet(next, node)) { // E9
@@ -206,14 +331,14 @@ class MSQueue<T> implements UnboundedQueue<T> {
                 } else
                     // Queue in intermediate state, advance tail
                     tail.compareAndSet(last, next);
-            }
+            //}
         }
     }
 
     public T dequeue() { // from head
         while (true) {
             Node<T> first = head.get(), last = tail.get(), next = first.next.get(); // D3
-            if (first == head.get()) {        // D5
+            //if (first == head.get()) {        // D5
                 if (first == last) {
                     if (next == null)
                         return null;
@@ -224,7 +349,7 @@ class MSQueue<T> implements UnboundedQueue<T> {
                     if (head.compareAndSet(first, next)) // D13
                         return result;
                 }
-            }
+            //}
         }
     }
 
@@ -309,4 +434,4 @@ class MSQueueRefl<T> implements UnboundedQueue<T> {
             this.next = next;
         }
     }
-}
+}*/

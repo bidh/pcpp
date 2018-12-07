@@ -2,40 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="056c52ee-9fe6-49db-b68d-4551eac179ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../lecture10/pcpp-week10/CAS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture10/pcpp-week10/CAS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture2/pcpp-week02/BasicDesign.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture3/Benchmarking.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture4/pcpp-week04/Streams/Streams.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture6/pcpp-week06/HashMap/TestLongAdders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture6/pcpp-week06/HashMap/TestStripedMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/ConcurrentMapTest$Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/ConcurrentMapTest$Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/ConcurrentMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/ConcurrentMapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/StripedMap$ItemNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/StripedMap$ItemNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/StripedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/StripedMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/StripedWriteMap$Holder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/StripedWriteMap$Holder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/StripedWriteMap$ItemNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/StripedWriteMap$ItemNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/StripedWriteMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/StripedWriteMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/SynchronizedMap$ItemNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/SynchronizedMap$ItemNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/SynchronizedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/SynchronizedMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/TestStripedMap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/TestStripedMap$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/TestStripedMap$Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/TestStripedMap$Timer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/TestStripedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/TestStripedMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/WrapConcurrentHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/out/production/TestingConcurrentApps/WrapConcurrentHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/src/StripedMap$ItemNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/src/StripedMap$ItemNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/src/StripedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/src/StripedMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/src/StripedWriteMap$Holder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/src/StripedWriteMap$Holder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/src/StripedWriteMap$ItemNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/src/StripedWriteMap$ItemNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/src/StripedWriteMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/src/StripedWriteMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/src/SynchronizedMap$ItemNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/src/SynchronizedMap$ItemNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/src/SynchronizedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/src/SynchronizedMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/src/TestStripedMap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/src/TestStripedMap$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/src/TestStripedMap$Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/src/TestStripedMap$Timer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/src/TestStripedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/src/TestStripedMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/src/TestStripedMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/src/TestStripedMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture8/src/WrapConcurrentHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture8/src/WrapConcurrentHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture9/TransactionalMemory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture9/TransactionalMemory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/out/production/MSQueue/ConcurrentEnqDeqTest$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/out/production/MSQueue/ConcurrentEnqDeqTest$Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/out/production/MSQueue/ConcurrentEnqDeqTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/out/production/MSQueue/LockingQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/out/production/MSQueue/LockingQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/out/production/MSQueue/MSQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/out/production/MSQueue/MSQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/out/production/MSQueue/MSQueueRefl$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/out/production/MSQueue/MSQueueRefl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/out/production/MSQueue/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/out/production/MSQueue/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/out/production/MSQueue/TestMSQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/out/production/MSQueue/UnboundedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/src/TestMSQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/src/TestMSQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaAkka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaAkka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ABC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ABC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture3/Benchmarking/TestCountPrimesThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture3/Benchmarking/TestCountPrimesThreads.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,72 +32,46 @@
     <session id="212743791">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3147" />
+          <entry key="java" value="4433" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3147" />
+          <entry key="JAVA" value="4433" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HelloWorldVariant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ecco.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ABC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="1479">
+              <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,11 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HelloWorldVariant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="88" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Broadcast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-527">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="765">
+              <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,7 +129,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
@@ -197,13 +164,14 @@
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543656580312" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lecture10/pcpp-week10/CAS" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544134460167" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scala.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -217,7 +185,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Broadcast">
+  <component name="RunManager" selected="Application.ABC">
+    <configuration name="ABC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ABC" />
+      <module name="JavaAkka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Broadcast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Broadcast" />
       <module name="JavaAkka" />
@@ -251,9 +226,11 @@
       <item itemvalue="Application.HelloWorldVariant" />
       <item itemvalue="Application.Ecco" />
       <item itemvalue="Application.Broadcast" />
+      <item itemvalue="Application.ABC" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ABC" />
         <item itemvalue="Application.Broadcast" />
         <item itemvalue="Application.Ecco" />
         <item itemvalue="Application.HelloWorldVariant" />
@@ -273,17 +250,28 @@
       <updated>1543154340737</updated>
       <workItem from="1543154343478" duration="14554000" />
       <workItem from="1543394231123" duration="5352000" />
+      <workItem from="1544110446982" duration="7255000" />
+      <workItem from="1544217960903" duration="505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19906000" />
+    <option name="totallyTimeSpent" value="27666000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18947369" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19595142" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +284,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -321,16 +309,35 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MyMessage.java" />
-    <entry file="jar://$USER_HOME$/Downloads/akka-actor.jar!/akka/actor/ActorRef.class">
+    <entry file="jar://$USER_HOME$/Downloads/akka-actor.jar!/akka/actor/ActorRef.class" />
+    <entry file="file://$PROJECT_DIR$/../../lecture10/CAS/TestCas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="-49" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lecture10/CAS/TestPseudoRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1086" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lecture10/CAS/TestCasAtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="183" column="24" lean-forward="true" selection-start-line="183" selection-start-column="24" selection-end-line="183" selection-end-column="24" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../lecture10/CAS/TestCasLocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4641" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lecture10/pcpp-week10/CAS/CAS.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="478">
           <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
         </state>
       </provider>
@@ -342,67 +349,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HelloWorldVariant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lecture10/CAS/TestCas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <folding>
-            <element signature="e#0#553#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lecture10/CAS/TestPseudoRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1086">
-          <folding>
-            <element signature="e#0#5050#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lecture10/CAS/TestCasAtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="183" column="24" lean-forward="true" selection-start-line="183" selection-start-column="24" selection-end-line="183" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#6251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lecture10/CAS/TestCasLocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4641">
-          <folding>
-            <element signature="e#0#15751#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ABC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="1479">
+          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../lecture10/pcpp-week10/CAS/CAS.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/HelloWorldVariant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="88" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="88" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Broadcast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="765">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

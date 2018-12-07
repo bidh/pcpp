@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/akka-actor.jar!/" />
+          <root url="jar://$MODULE_DIR$/../akka-actor.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/akka-config.jar!/" />
+          <root url="jar://$MODULE_DIR$/../akka-config.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,7 +28,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/scala.jar!/" />
+          <root url="jar://$MODULE_DIR$/../scala.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
