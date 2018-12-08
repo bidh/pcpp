@@ -1,5 +1,14 @@
-  % hello world program
--module(helloworld).
+%%%-------------------------------------------------------------------
+%%% @author Biraj
+%%% @copyright (C) 2018, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 07. Dec 2018 11:38 PM
+%%%-------------------------------------------------------------------
+-module('SecComSys').
+-author("Biraj").
+
 -export([start/0, receiver/3, sender/1, registry/1]).
 
 % ----- CRYPTO -----
@@ -13,10 +22,10 @@ keygen() ->
   io:write(PrivateKey),
   io:fwrite("\n"),
   {PublicKey, PrivateKey}.
-      
+
 encrypt([], _) -> [];
-encrypt([C|S], Key) -> [$A + (C - $A + Key) rem 26|encrypt(S,Key)]. 
-      
+encrypt([C|S], Key) -> [$A + (C - $A + Key) rem 26|encrypt(S,Key)].
+
 % ----- REGISTRY -----
 
 getkey([], Pid) -> throw({notfound,Pid});
@@ -25,9 +34,9 @@ getkey([_|Map], Pid) -> getkey(Map,Pid).
 
 putkey(Map, Pid, Key) -> [{Pid, Key}|Map].
 
-registry(Map) -> 
-  receive 
-    {register, Pid} -> 
+registry(Map) ->
+  receive
+      {register, Pid} ->
       {PublicKey, PrivateKey} = keygen(),
       Pid ! {keypair, {PublicKey, PrivateKey}},
       registry(putkey(Map, Pid, PublicKey));
@@ -71,3 +80,4 @@ start() ->
   Sender = spawn(helloworld, sender, [0]),
   Sender ! {init, Registry},
   Sender ! {comm, Receiver}.
+
