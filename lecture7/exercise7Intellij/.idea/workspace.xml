@@ -1,10 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efe11970-2d33-4b3c-960b-cae711d814f1" name="Default" comment="" />
+    <list default="true" id="efe11970-2d33-4b3c-960b-cae711d814f1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/Primer.erl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/Primer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/SortingPipeline.erl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/SortingPipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/start.erl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXT02-2011-05-19.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../EXT02-2011-05-19.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture10/pcpp-week10/CAS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture10/pcpp-week10/CAS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/ABC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/AccountActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/BankActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/Broadcast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/BroadcasterActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/ClerkActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/CommMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/Crypto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/DepositMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/InitMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/InitMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/KeyPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/LookupMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/MyMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/PersonActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/PrintBalanceMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/PublicKeyMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/ReceiverActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/RegisterMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/RegistryActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/SecComSys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/SenderActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/StartTransferMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/SubscribeMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/TransferMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/UnsubscribeMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/ABC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/ABC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/Broadcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/Broadcast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/SecComSys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/SecComSys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture3/Benchmarking/LongCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture3/Benchmarking/TestCountPrimesThreads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture3/Benchmarking/Timer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise7Intellij/TestFetchWebGui$DownloadWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercise7Intellij/TestFetchWebGui$DownloadWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise7Intellij/TestFetchWebGui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercise7Intellij/TestFetchWebGui.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestFetchWebGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestFetchWebGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture9/TransactionalMemory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture9/TransactionalMemory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture9/harris-marlow-peytonjones-herlihy-2008.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture9/harris-marlow-peytonjones-herlihy-2008.pdf" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,24 +61,49 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/exercise7$TestLiftGui.coverage" NAME="TestLiftGui Coverage Results" MODIFIED="1540557901101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="779856701">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestLiftGui.java" pinned="false" current-in-tab="true">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestLiftGui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="384" column="9" lean-forward="false" selection-start-line="384" selection-start-column="9" selection-end-line="384" selection-end-column="9" />
+            <state relative-caret-position="128">
+              <caret line="310" column="33" selection-start-line="310" selection-start-column="29" selection-end-line="310" selection-end-column="33" />
               <folding>
                 <element signature="e#0#17270#0" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="e#2719#2720#0" expanded="true" />
                 <element signature="e#2775#2776#0" expanded="true" />
-                <element signature="e#4695#4696#0" expanded="true" />
-                <element signature="e#4753#4754#0" expanded="true" />
-                <element signature="e#5667#5668#0" expanded="true" />
-                <element signature="e#5743#5744#0" expanded="true" />
-                <element signature="e#5857#5858#0" expanded="true" />
-                <element signature="e#5935#5936#0" expanded="true" />
                 <element signature="e#8171#8172#0" expanded="true" />
                 <element signature="e#8215#8216#0" expanded="true" />
                 <element signature="e#12041#12042#0" expanded="true" />
@@ -52,6 +125,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../pcpp-week07/GUIcache/TestLiftGui.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="281" column="48" lean-forward="true" selection-start-line="281" selection-start-column="5" selection-end-line="281" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#12880#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -68,12 +153,13 @@
       <find>5</find>
       <find>scheduleAtFixedRate</find>
       <find>sleep</find>
+      <find>moveTo</find>
+      <find>steps</find>
+      <find>doorRange</find>
     </findStrings>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -90,28 +176,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="328" />
-    <option name="width" value="1592" />
-    <option name="height" value="1030" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -120,18 +195,31 @@
               <item name="exercise7" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercise7Intellij" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="exercise7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise7Intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise7Intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TestLiftGui.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../practice" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544965826797" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,127 +235,66 @@
   </component>
   <component name="RunManager" selected="Application.TestLiftGui">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestFetchWebGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TestFetchWebGui" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="exercise7Intellij" />
-      <envs />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestLiftGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TestLiftGui" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="exercise7Intellij" />
-      <envs />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestFetchWebGui" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestLiftGui" />
+    <list>
+      <item itemvalue="Application.TestFetchWebGui" />
+      <item itemvalue="Application.TestLiftGui" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestLiftGui" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestFetchWebGui" />
+      <list>
+        <item itemvalue="Application.TestLiftGui" />
+        <item itemvalue="Application.TestFetchWebGui" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -281,44 +308,48 @@
       <updated>1539545240347</updated>
       <workItem from="1539545243553" duration="35667000" />
       <workItem from="1540762030227" duration="183000" />
+      <workItem from="1544718190903" duration="5129000" />
+      <workItem from="1544964473921" duration="1351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35850000" />
+    <option name="totallyTimeSpent" value="42330000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4738676" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20556745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39953542" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21214575" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Learn" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329849" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4724689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39953542" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329849" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32976446" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,90 +358,44 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="9" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TestLiftGui.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/SwingWorker.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/Executors.java" />
+    <entry file="file://$PROJECT_DIR$/../../../examPrepPCPP/GUIcache/TestFetchWebGui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17270#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#2719#2720#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#4695#4696#0" expanded="true" />
-            <element signature="e#4753#4754#0" expanded="true" />
-            <element signature="e#5667#5668#0" expanded="true" />
-            <element signature="e#5743#5744#0" expanded="true" />
-            <element signature="e#5857#5858#0" expanded="true" />
-            <element signature="e#5935#5936#0" expanded="true" />
-            <element signature="e#8171#8172#0" expanded="true" />
-            <element signature="e#8215#8216#0" expanded="true" />
-            <element signature="e#12041#12042#0" expanded="true" />
-            <element signature="e#12107#12108#0" expanded="true" />
-            <element signature="e#15251#15252#0" expanded="true" />
-            <element signature="e#15291#15292#0" expanded="true" />
-            <element signature="e#15351#15352#0" expanded="true" />
-            <element signature="e#15411#15412#0" expanded="true" />
-            <element signature="e#15443#15444#0" expanded="true" />
-            <element signature="e#15492#15493#0" expanded="true" />
-            <element signature="e#16133#16134#0" expanded="true" />
-            <element signature="e#16167#16168#0" expanded="true" />
-            <element signature="e#16217#16218#0" expanded="true" />
-            <element signature="e#16313#16314#0" expanded="true" />
-            <element signature="e#17232#17233#0" expanded="true" />
-            <element signature="e#17266#17267#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1190">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/SwingWorker.java">
+    <entry file="file://$PROJECT_DIR$/../../../examPrepPCPP/GUIcache/TestLiftGui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="407" column="25" lean-forward="false" selection-start-line="407" selection-start-column="25" selection-end-line="407" selection-end-column="25" />
+        <state relative-caret-position="153">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFetchWebGui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="153" column="82" lean-forward="true" selection-start-line="153" selection-start-column="82" selection-end-line="153" selection-end-column="82" />
+        <state relative-caret-position="1326">
+          <caret line="223" column="5" lean-forward="true" selection-start-line="223" selection-start-column="5" selection-end-line="223" selection-end-column="5" />
           <folding>
             <element signature="e#0#10529#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="method#getPage#0;class#TestFetchWebGui#0" expanded="false" />
+            <element signature="method#getPage#0;class#TestFetchWebGui#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13004">
-          <caret line="733" column="53" lean-forward="false" selection-start-line="733" selection-start-column="34" selection-end-line="733" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestLiftGui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="384" column="9" lean-forward="false" selection-start-line="384" selection-start-column="9" selection-end-line="384" selection-end-column="9" />
+        <state relative-caret-position="128">
+          <caret line="310" column="33" selection-start-line="310" selection-start-column="29" selection-end-line="310" selection-end-column="33" />
           <folding>
             <element signature="e#0#17270#0" expanded="true" />
             <element signature="imports" expanded="true" />
             <element signature="e#2719#2720#0" expanded="true" />
             <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#4695#4696#0" expanded="true" />
-            <element signature="e#4753#4754#0" expanded="true" />
-            <element signature="e#5667#5668#0" expanded="true" />
-            <element signature="e#5743#5744#0" expanded="true" />
-            <element signature="e#5857#5858#0" expanded="true" />
-            <element signature="e#5935#5936#0" expanded="true" />
             <element signature="e#8171#8172#0" expanded="true" />
             <element signature="e#8215#8216#0" expanded="true" />
             <element signature="e#12041#12042#0" expanded="true" />
@@ -427,6 +412,16 @@
             <element signature="e#16313#16314#0" expanded="true" />
             <element signature="e#17232#17233#0" expanded="true" />
             <element signature="e#17266#17267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pcpp-week07/GUIcache/TestLiftGui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="281" column="48" lean-forward="true" selection-start-line="281" selection-start-column="5" selection-end-line="281" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#12880#0" expanded="true" />
           </folding>
         </state>
       </provider>

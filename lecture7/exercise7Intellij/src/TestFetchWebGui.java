@@ -176,6 +176,8 @@ public class TestFetchWebGui {
             return "";
         }
     }
+
+
     static AtomicInteger count = new AtomicInteger();
     static class DownloadWorker extends SwingWorker<String,String> {
         private final TextArea textArea;

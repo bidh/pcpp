@@ -1,3 +1,4 @@
+/*
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
@@ -138,7 +139,7 @@ class Crypto {
 }
 public class SecComSys {
     public static void main(String[] args){
-        final ActorSystem system= ActorSystem.create("EccoSystem");
+        final ActorSystem system= ActorSystem.create("SecConSysSystem");
         final ActorRef RegistryActor=system.actorOf(Props.create(RegistryActor.class),"RegisterActor");
         final ActorRef ReceiverActor=system.actorOf(Props.create(ReceiverActor.class),"ReceiverActor");
 
@@ -150,3 +151,4 @@ public class SecComSys {
         SenderActor.tell(new CommMessage(ReceiverActor),ActorRef.noSender());
     }
 }
+*/

@@ -1,4 +1,4 @@
-/* uncomment to run the application
+
 // For week 12
 // sestoft@itu.dk * 2014-11-16
 
@@ -19,7 +19,7 @@ public class TestMSQueue {
     public static void main(String[] args) {
         //testAllQueues();
         // ----uncomment for concurrent test
-        *//*ExecutorService service= Executors.newCachedThreadPool();
+        ExecutorService service= Executors.newCachedThreadPool();
         final int nPairs=16;
         MSQueue<Integer> queue=new MSQueue<>();
         ConcurrentEnqDeqTest concurrentEnqDeqTest=new ConcurrentEnqDeqTest(queue,
@@ -27,10 +27,9 @@ public class TestMSQueue {
                 100_000);
         concurrentEnqDeqTest.test(service);
         service.shutdown();
-        System.out.println("....passed");*//*
+        System.out.println("....passed");
         SystemInfo();
         final int range = 100_000;
-        MSQueue<Integer> queue=new MSQueue<>();
         for (int c=1; c<=8; c++) {
             final int threadCount = c;
             Mark7(String.format("MSQueueParallelNThreadConfined %6d", threadCount),
@@ -102,14 +101,7 @@ public class TestMSQueue {
         } catch (InterruptedException exn) { }
         return al.intValue();
     }
-*//*for(int i=nrTrials;i>0;--i){
-        item=queue.dequeue();
-        if(item!=null){
-            sum+=item;
-        }else{
-            i++;
-        }
-    }*//*
+
     private static boolean isPrime(int n) {
         int k = 2;
         while (k * k <= n && n % k != 0)
@@ -236,6 +228,7 @@ class ConcurrentEnqDeqTest extends Test{
         }
     }
 }
+/*
 
 class Test {
     public static void assertEquals(int x, int y) throws Exception {
@@ -248,6 +241,7 @@ class Test {
             throw new Exception(String.format("ERROR: assertTrue"));
     }
 }
+*/
 
 
 interface UnboundedQueue<T> {
@@ -434,4 +428,4 @@ class MSQueueRefl<T> implements UnboundedQueue<T> {
             this.next = next;
         }
     }
-}*/
+}
