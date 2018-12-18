@@ -2,54 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="056c52ee-9fe6-49db-b68d-4551eac179ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Primer.erl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Primer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortingPipeline.erl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortingPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/start.erl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../EXT02-2011-05-19.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../EXT02-2011-05-19.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture10/pcpp-week10/CAS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture10/pcpp-week10/CAS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/.idea/libraries/akka_actor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScatterGather.erl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/ABC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/AccountActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/BankActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/Broadcast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/BroadcasterActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/ClerkActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/CommMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/Crypto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/DepositMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/InitMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAkka/InitMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/KeyPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/LookupMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/MyMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/PersonActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/PrintBalanceMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/PublicKeyMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/ReceiverActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/RegisterMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/RegistryActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/SecComSys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/SenderActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/StartTransferMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/SubscribeMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/TransferMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/UnsubscribeMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ABC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ABC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Broadcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Broadcast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SecComSys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecComSys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture3/Benchmarking/LongCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture3/Benchmarking/TestCountPrimesThreads.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture3/Benchmarking/Timer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/out/production/exercise7Intellij/TestFetchWebGui$DownloadWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/out/production/exercise7Intellij/TestFetchWebGui$DownloadWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/out/production/exercise7Intellij/TestFetchWebGui.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/out/production/exercise7Intellij/TestFetchWebGui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/src/TestFetchWebGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/src/TestFetchWebGui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture9/TransactionalMemory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture9/TransactionalMemory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture9/harris-marlow-peytonjones-herlihy-2008.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture9/harris-marlow-peytonjones-herlihy-2008.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/Collector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/Dispatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/InitMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/NumMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScatterGather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScatterGather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture5/exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture5/exercise/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,52 +26,82 @@
     <session id="212743791">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="35" />
-          <entry key="erl" value="10" />
+          <entry key="erl" value="18" />
           <entry key="iml" value="1" />
-          <entry key="java" value="40" />
+          <entry key="java" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="35" />
-          <entry key="Erlang" value="10" />
+          <entry key="Erlang" value="18" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="40" />
+          <entry key="JAVA" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="erl" value="11" />
-          <entry key="java" value="10505" />
+          <entry key="erl" value="12" />
+          <entry key="java" value="10540" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Erlang" value="11" />
-          <entry key="JAVA" value="10505" />
+          <entry key="Erlang" value="12" />
+          <entry key="JAVA" value="10540" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/start.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/start.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ScatterGather.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-161">
+              <caret line="89" column="50" lean-forward="true" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ScatterGather.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="62" column="26" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -117,10 +111,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Erlang Module" />
         <option value="Class" />
+        <option value="Erlang Module" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>res1</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -145,6 +144,8 @@
         <option value="$PROJECT_DIR$/src/ABC.java" />
         <option value="$PROJECT_DIR$/src/Broadcast.java" />
         <option value="$PROJECT_DIR$/src/start.java" />
+        <option value="$PROJECT_DIR$/src/ScatterGather.java" />
+        <option value="$PROJECT_DIR$/src/ScatterGather.erl" />
       </list>
     </option>
   </component>
@@ -165,7 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,13 +187,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544873908805" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545130309875" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -219,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.start">
+  <component name="RunManager" selected="Application.ScatterGather">
     <configuration name="Primer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Primer" />
       <module name="JavaAkka" />
@@ -227,15 +228,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecComSys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecComSys" />
+    <configuration name="ScatterGather" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ScatterGather" />
       <module name="JavaAkka" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingPipeline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingPipeline" />
+    <configuration name="SecComSys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SecComSys" />
       <module name="JavaAkka" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -257,18 +258,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.SecComSys" />
-      <item itemvalue="Application.SortingPipeline" />
       <item itemvalue="Application.Primer" />
       <item itemvalue="Application.start" />
       <item itemvalue="Application.SpawnInitCompute" />
+      <item itemvalue="Application.ScatterGather" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScatterGather" />
         <item itemvalue="Application.start" />
         <item itemvalue="Application.SpawnInitCompute" />
         <item itemvalue="Application.SecComSys" />
         <item itemvalue="Application.Primer" />
-        <item itemvalue="Application.SortingPipeline" />
       </list>
     </recent_temporary>
   </component>
@@ -290,11 +291,13 @@
       <workItem from="1544800442303" duration="2852000" />
       <workItem from="1544869000637" duration="4972000" />
       <workItem from="1544874007979" duration="2000" />
+      <workItem from="1545086110578" duration="1235000" />
+      <workItem from="1545118218887" duration="7198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65707000" />
+    <option name="totallyTimeSpent" value="74140000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,8 +310,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20890689" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21214575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,7 +342,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19919029" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21214575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -347,7 +351,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5612789" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -556,21 +560,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SpawnInitCompute.java" />
     <entry file="file://$USER_HOME$/Downloads/SpawnInitCompute.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2431">
           <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,6 +635,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/start.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ScatterGather.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ScatterGather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="89" column="50" lean-forward="true" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

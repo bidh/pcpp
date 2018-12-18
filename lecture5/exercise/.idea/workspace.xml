@@ -2,57 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23880192-0e94-43d3-b296-64c9db86dcbd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/Primer.erl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/Primer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/SortingPipeline.erl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/SortingPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/start.erl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../EXT02-2011-05-19.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../EXT02-2011-05-19.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture10/pcpp-week10/CAS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture10/pcpp-week10/CAS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/src/TestMSQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/src/TestMSQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/ScatterGather.erl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/ABC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/AccountActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/BankActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/Broadcast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/BroadcasterActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/ClerkActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/CommMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/Crypto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/DepositMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/InitMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/InitMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/KeyPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/LookupMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/MyMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/PersonActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/PrintBalanceMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/PublicKeyMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/ReceiverActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/RegisterMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/RegistryActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/SecComSys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/SenderActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/StartTransferMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/SubscribeMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/TransferMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/UnsubscribeMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/ABC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/ABC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/Broadcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/Broadcast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/SecComSys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/SecComSys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture3/Benchmarking/LongCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture3/Benchmarking/TestCountPrimesThreads.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture3/Benchmarking/Timer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/Collector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/Dispatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/InitMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/NumMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/ScatterGather.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/ScatterGather.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture6/exercise6Intellij/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture6/exercise6Intellij/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/out/production/exercise7Intellij/TestFetchWebGui$DownloadWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/out/production/exercise7Intellij/TestFetchWebGui$DownloadWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/out/production/exercise7Intellij/TestFetchWebGui.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/out/production/exercise7Intellij/TestFetchWebGui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/src/TestFetchWebGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/src/TestFetchWebGui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture9/TransactionalMemory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture9/TransactionalMemory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture9/harris-marlow-peytonjones-herlihy-2008.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture9/harris-marlow-peytonjones-herlihy-2008.pdf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,6 +24,7 @@
     <session id="1396147213">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -87,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/TestCountPrimesTasks.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="70">
-              <caret line="140" column="9" lean-forward="true" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+              <caret line="140" column="9" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
               <folding>
                 <element signature="e#0#8437#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -104,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/TestDownload.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
               <folding>
                 <element signature="e#0#4009#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -293,12 +253,12 @@
       <workItem from="1538655240695" duration="860000" />
       <workItem from="1538662996272" duration="16236000" />
       <workItem from="1539251698729" duration="75000" />
-      <workItem from="1545042878973" duration="6788000" />
+      <workItem from="1545042878973" duration="7398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23959000" />
+    <option name="totallyTimeSpent" value="24569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,7 +336,7 @@
     <entry file="file://$PROJECT_DIR$/src/TestDownload.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
           <folding>
             <element signature="e#0#4009#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -387,7 +347,7 @@
     <entry file="file://$PROJECT_DIR$/src/TestCountPrimesTasks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
-          <caret line="140" column="9" lean-forward="true" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+          <caret line="140" column="9" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
           <folding>
             <element signature="e#0#8437#0" expanded="true" />
             <element signature="imports" expanded="true" />
