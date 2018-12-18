@@ -2,55 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404ccc78-7f3c-435b-8817-4a9fb951d9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/Primer.erl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/Primer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/SortingPipeline.erl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/SortingPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/start.erl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../EXT02-2011-05-19.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../EXT02-2011-05-19.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture10/pcpp-week10/CAS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture10/pcpp-week10/CAS/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/Accounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/LockAccounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/LockAccountsFast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/UnsafeAccounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/Merger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/Merger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/StartActor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/StartActor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/Tester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/src/TestMSQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/src/TestMSQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/ABC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/AccountActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/BankActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/Broadcast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/BroadcasterActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/ClerkActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/CommMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/Crypto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/DepositMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/InitMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/InitMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/KeyPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/LookupMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/MyMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/PersonActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/PrintBalanceMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/PublicKeyMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/ReceiverActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/RegisterMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/RegistryActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/SecComSys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/SenderActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/StartTransferMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/SubscribeMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/TransferMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/out/production/JavaAkka/UnsubscribeMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/ABC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/ABC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/Broadcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/Broadcast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/SecComSys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/src/SecComSys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture3/Benchmarking/LongCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture3/Benchmarking/TestCountPrimesThreads.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture3/Benchmarking/Timer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/out/production/exercise7Intellij/TestFetchWebGui$DownloadWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/out/production/exercise7Intellij/TestFetchWebGui$DownloadWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/out/production/exercise7Intellij/TestFetchWebGui.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/out/production/exercise7Intellij/TestFetchWebGui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/src/TestFetchWebGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture7/exercise7Intellij/src/TestFetchWebGui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture9/TransactionalMemory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture9/TransactionalMemory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture9/harris-marlow-peytonjones-herlihy-2008.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture9/harris-marlow-peytonjones-herlihy-2008.pdf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +29,9 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,12 +47,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestStripedMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="441" lean-forward="true" selection-start-line="441" selection-end-line="441" />
+            <state relative-caret-position="274">
+              <caret line="556" column="33" lean-forward="true" selection-start-line="556" selection-start-column="33" selection-end-line="556" selection-end-column="33" />
               <folding>
                 <element signature="method#timeAllMaps#0;class#TestStripedMap#0" />
                 <element signature="method#timeMap#0;class#TestStripedMap#0" />
@@ -97,7 +63,6 @@
                 <element signature="class#Consumer#0" />
                 <element signature="class#OurMap#0" />
                 <element signature="class#SynchronizedMap#0" />
-                <element signature="e#16177#16207#0" expanded="true" />
                 <element signature="class#StripedWriteMap#0" />
                 <element signature="class#WrapConcurrentHashMap#0" />
               </folding>
@@ -137,9 +102,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
+    <option name="x" value="-12" />
     <option name="width" value="981" />
-    <option name="height" value="1031" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -147,7 +112,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,12 +135,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545152217024" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
@@ -268,17 +234,18 @@
       <workItem from="1539251894520" duration="21541000" />
       <workItem from="1539545201680" duration="40000" />
       <workItem from="1544993534951" duration="5722000" />
+      <workItem from="1545150883070" duration="1327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27303000" />
+    <option name="totallyTimeSpent" value="28630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Learn" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -286,7 +253,6 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329849" />
@@ -298,6 +264,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.44715446" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -339,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestStripedMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="441" lean-forward="true" selection-start-line="441" selection-end-line="441" />
+        <state relative-caret-position="274">
+          <caret line="556" column="33" lean-forward="true" selection-start-line="556" selection-start-column="33" selection-end-line="556" selection-end-column="33" />
           <folding>
             <element signature="method#timeAllMaps#0;class#TestStripedMap#0" />
             <element signature="method#timeMap#0;class#TestStripedMap#0" />
@@ -351,7 +318,6 @@
             <element signature="class#Consumer#0" />
             <element signature="class#OurMap#0" />
             <element signature="class#SynchronizedMap#0" />
-            <element signature="e#16177#16207#0" expanded="true" />
             <element signature="class#StripedWriteMap#0" />
             <element signature="class#WrapConcurrentHashMap#0" />
           </folding>

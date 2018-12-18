@@ -83,7 +83,7 @@ class Merger extends UntypedActor{
             }else{
                 L2=((Sorted)o).lst;
                 List<Integer> finalL=merge(L1,L2);
-                System.out.println("Merged"+finalL);
+                System.out.println("Merged: "+finalL);
                 X.tell(new Sorted(finalL),ActorRef.noSender());
             }
         }
@@ -119,13 +119,14 @@ class Tester extends UntypedActor{
             Integer[] myArray1=new Integer[]{8,7,6,5,3,2,1,4,-1,9};
             Integer[] myArray2=new Integer[]{6,7,3,5,4,1,2,8};
 
-            List<Integer> lst= Arrays.asList(myArray2);
+            List<Integer> lst= Arrays.asList(myArray);
 
             ActorRef sorter=((InitMessage)o).sorter;
             sorter.tell(new SortMessage(lst,getSelf()),ActorRef.noSender());
         }
         else if(o instanceof Sorted){
             List<Integer> lst=((Sorted)o).lst;
+            System.out.print("RESULT: ");
             for(int i:lst)
                 System.out.print(i+" ");
         }

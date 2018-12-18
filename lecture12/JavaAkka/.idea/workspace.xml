@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="056c52ee-9fe6-49db-b68d-4551eac179ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/.idea/libraries/akka_actor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ScatterGather.erl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/Collector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/Dispatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/InitMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/NumMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAkka/start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScatterGather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScatterGather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture5/exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture5/exercise/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="056c52ee-9fe6-49db-b68d-4551eac179ce" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +13,7 @@
     <session id="212743791">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.18" value="1" />
@@ -194,7 +181,7 @@
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545130309875" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545130340596" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -292,12 +279,12 @@
       <workItem from="1544869000637" duration="4972000" />
       <workItem from="1544874007979" duration="2000" />
       <workItem from="1545086110578" duration="1235000" />
-      <workItem from="1545118218887" duration="7198000" />
+      <workItem from="1545118218887" duration="7349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74140000" />
+    <option name="totallyTimeSpent" value="74291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
