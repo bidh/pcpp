@@ -17,4 +17,6 @@ interface Accounts {
 
     // Transfer all the balances from other to this accounts object.
     public void transferAccount(Accounts other);
+
+    public int[] getAccounts();
 }

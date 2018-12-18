@@ -68,7 +68,7 @@ public class LockAccountsFast implements Accounts{
 
     public void transferAccount(Accounts other) {
         for (int i = 0; i < accounts.length; i++) {
-            accounts[i] += other.get(i);
+            deposit(i,other.get(i));
         }
     }
 
@@ -81,6 +81,9 @@ public class LockAccountsFast implements Accounts{
             }
         }
         return res;
+    }
+    public int[] getAccounts(){
+        return accounts;
     }
     private void lockAllAndThen(Runnable action) {
         lockAllAndThen(0, action);

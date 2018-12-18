@@ -48,7 +48,9 @@ public class LockAccounts implements Accounts{
 
     public void transferAccount(Accounts other) {
         for (int i = 0; i < accounts.length; i++) {
-            accounts[i] += other.get(i);
+            synchronized (locks[i]){
+                accounts[i] += other.get(i);
+            }
         }
     }
 
@@ -61,5 +63,8 @@ public class LockAccounts implements Accounts{
             }
         }
         return res;
+    }
+    public int[] getAccounts(){
+        return accounts;
     }
 }

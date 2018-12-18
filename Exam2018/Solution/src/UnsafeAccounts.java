@@ -47,4 +47,7 @@ public class UnsafeAccounts implements Accounts {
         }
         return res;
     }
+    public int[] getAccounts(){
+        return accounts;
+    }
 }

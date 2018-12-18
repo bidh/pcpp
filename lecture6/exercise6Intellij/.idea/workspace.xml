@@ -2,20 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404ccc78-7f3c-435b-8817-4a9fb951d9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/LockAccounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/LockAccountsFast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/UnsafeAccounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exam2018/BufferedMergingPriorityQueue/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/Merger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/Merger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/StartActor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/StartActor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/Tester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/Accounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/Accounts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/ConcurrentTestRaceCondition$Depositer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/ConcurrentTestRaceCondition$Depositer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/ConcurrentTestRaceCondition$Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/ConcurrentTestRaceCondition$Reader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/ConcurrentTestRaceCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/ConcurrentTestRaceCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/LockAccounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/LockAccounts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/LockAccountsFast.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/LockAccountsFast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/UnsafeAccounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/out/production/Solution/UnsafeAccounts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/src/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/Accounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/src/LockAccounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/LockAccounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/src/LockAccountsFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/LockAccountsFast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/src/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam2018/Solution/src/UnsafeAccounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam2018/Solution/src/UnsafeAccounts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture12/JavaAkka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture12/JavaAkka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +33,7 @@
     <session id="-1224222410">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="2" />
@@ -51,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestStripedMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="556" column="33" lean-forward="true" selection-start-line="556" selection-start-column="33" selection-end-line="556" selection-end-column="33" />
+            <state relative-caret-position="325">
+              <caret line="556" column="33" selection-start-line="556" selection-start-column="33" selection-end-line="556" selection-end-column="33" />
               <folding>
                 <element signature="method#timeAllMaps#0;class#TestStripedMap#0" />
                 <element signature="method#timeMap#0;class#TestStripedMap#0" />
@@ -141,7 +146,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545152217024" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545158872297" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
@@ -234,12 +239,12 @@
       <workItem from="1539251894520" duration="21541000" />
       <workItem from="1539545201680" duration="40000" />
       <workItem from="1544993534951" duration="5722000" />
-      <workItem from="1545150883070" duration="1327000" />
+      <workItem from="1545150883070" duration="5273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28630000" />
+    <option name="totallyTimeSpent" value="32576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -306,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestStripedMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="556" column="33" lean-forward="true" selection-start-line="556" selection-start-column="33" selection-end-line="556" selection-end-column="33" />
+        <state relative-caret-position="325">
+          <caret line="556" column="33" selection-start-line="556" selection-start-column="33" selection-end-line="556" selection-end-column="33" />
           <folding>
             <element signature="method#timeAllMaps#0;class#TestStripedMap#0" />
             <element signature="method#timeMap#0;class#TestStripedMap#0" />

@@ -1,3 +1,5 @@
+import java.util.List;
+import java.util.Optional;
 import java.util.Random;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.ExecutorService;
@@ -8,7 +10,7 @@ import java.util.function.*;
 
 public class Runner {
     public static void main(String[] args) {
-       // final int numberOfAccounts = 1;
+        final int numberOfAccounts = 10;
        // testAccounts(new UnsafeAccounts(numberOfAccounts), numberOfAccounts);
         /* Question 1.2
         final int nPairs=1;
@@ -43,7 +45,7 @@ public class Runner {
         concurrentTestRaceCondition.test1(service);
         System.out.println("passed");*/
 
-        final int numberOfAccounts = 100;
+    /*    final int numberOfAccounts = 100;
         final int nPairs=8;
         final int nTrials=100_000;
 
@@ -51,13 +53,17 @@ public class Runner {
                 new ConcurrentTestRaceCondition(new LockAccountsFast(numberOfAccounts),numberOfAccounts,nPairs,nTrials);
         ExecutorService service= Executors.newCachedThreadPool();
         concurrentTestRaceCondition.test1(service);
-        System.out.println("passed");
+        System.out.println("passed");*/
 
 
-/*
+
         final int numberOfTransactions = 1000;
-        applyTransactionsLoop(numberOfAccounts, numberOfTransactions, () -> new UnsafeAccounts(numberOfAccounts));
-        applyTransactionsCollect(numberOfAccounts, numberOfTransactions, () -> new UnsafeAccounts(numberOfAccounts));*/
+        //applyTransactionsLoop(numberOfAccounts, numberOfTransactions, () -> new LockAccountsFast(numberOfAccounts));
+        //applyTransactionsLoop(numberOfAccounts, numberOfTransactions, () -> new LockAccounts(numberOfAccounts));
+        //applyTransactionsLoop(numberOfAccounts, numberOfTransactions, () -> new UnsafeAccounts(numberOfAccounts));
+        //applyTransactionsCollect(numberOfAccounts, numberOfTransactions, () -> new LockAccounts(numberOfAccounts));
+        //applyTransactionsCollect(numberOfAccounts, numberOfTransactions, () -> new UnsafeAccounts(numberOfAccounts));
+        applyTransactionsCollect(numberOfAccounts, numberOfTransactions, () -> new LockAccountsFast(numberOfAccounts));
     }
 
     public static void testAccounts(Accounts accounts, final int n) {
@@ -102,7 +108,21 @@ public class Runner {
                 .mapToObj((i) -> new Transaction(numberOfAccounts, i));
         // implement applying each transaction by using a for-loop
         // Modify it to run with a parallel stream.
- // YOUR CODE GOES HERE 
+        transaction.parallel().forEach((t)->{
+            if(t.from==-1){
+                accounts.deposit(t.to,t.amount);
+            }else{
+                accounts.transfer(t.from,t.to,t.amount);
+            }
+        });
+        printBalance(accounts);
+    }
+    private static void printBalance(Accounts accounts){
+        int[] Accounts=accounts.getAccounts();
+        for(int i=0;i<Accounts.length;i++){
+            System.out.println("Account "+ i+ " balance is : "+Accounts[i]);
+        }
+        System.out.println("Sum Balance is : "+accounts.sumBalances());
     }
 
     // Question 1.7.2
@@ -115,7 +135,20 @@ public class Runner {
 
         // Implement applying each transaction by using the collect stream operator.
         // Modify it to run with a parallel stream.
- // YOUR CODE GOES HERE 
+ // YOUR CODE GOES HERE
+        Optional<Accounts> result=transactions.parallel().map((t)->{
+            Accounts accounts = generator.get();
+            if (t.from == -1){
+                accounts.deposit(t.to, t.amount);
+            }else{
+                accounts.transfer(t.from,t.to, t.amount);
+            }
+            return accounts;
+        }).collect(Collectors.reducing((a1,a2)->{
+            a1.transferAccount(a2);
+            return a1;
+        }));
+        printBalance(result.get());
     }
 }
 class ConcurrentTestRaceCondition extends Test{
