@@ -2,34 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9422ba72-b010-434a-9520-e54ae8dd15eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BoundedBufferThreadMerge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BufferedPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OneBufferPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PQPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParallelPQPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Parameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SerialPQPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Solution/.idea/libraries/multiverse_core_0_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Solution/src/CASAccounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Solution/src/STMAccounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/Accounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/out/production/Solution/Accounts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Solution/Solution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/Solution.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/ConcurrentTestRaceCondition$Depositer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/out/production/Solution/ConcurrentTestRaceCondition$Depositer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/ConcurrentTestRaceCondition$Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/out/production/Solution/ConcurrentTestRaceCondition$Reader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/ConcurrentTestRaceCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/out/production/Solution/ConcurrentTestRaceCondition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/LockAccounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/out/production/Solution/LockAccounts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/LockAccountsFast.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/out/production/Solution/LockAccountsFast.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/out/production/Solution/Runner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/out/production/Solution/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/UnsafeAccounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/out/production/Solution/UnsafeAccounts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/src/Accounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/LockAccounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/src/LockAccounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/LockAccountsFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/src/LockAccountsFast.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solution/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/src/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/src/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/UnsafeAccounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/src/UnsafeAccounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture11/pcpp-week11/MSQueue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lecture6/exercise6Intellij/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lecture6/exercise6Intellij/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,7 +103,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-12" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
@@ -153,7 +137,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545166840966" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545178850517" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -202,15 +186,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545158838310</updated>
-      <workItem from="1545158841555" duration="7446000" />
+      <workItem from="1545158841555" duration="8161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7446000" />
+    <option name="totallyTimeSpent" value="8161000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />

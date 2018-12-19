@@ -10,7 +10,7 @@ import java.util.function.*;
 
 public class Runner {
     public static void main(String[] args) {
-        final int numberOfAccounts = 10;
+       // final int numberOfAccounts = 10;
        // testAccounts(new UnsafeAccounts(numberOfAccounts), numberOfAccounts);
         /* Question 1.2
         final int nPairs=1;
@@ -23,27 +23,27 @@ public class Runner {
 
 
        //Question 1.3
-       /*
+
         //testing 1.2
-        final int numberOfAccounts=1;
+        /*final int numberOfAccounts=1;
         final int nPairs=1;
         final int nTrials=1000;
 
         ConcurrentTestRaceCondition concurrentTestRaceCondition=
-                new ConcurrentTestRaceCondition(new LockAccounts(numberOfAccounts),numberOfAccounts,nPairs,nTrials);
+                new ConcurrentTestRaceCondition(new STMAccounts(numberOfAccounts),numberOfAccounts,nPairs,nTrials);
         ExecutorService service= Executors.newCachedThreadPool();
-        concurrentTestRaceCondition.test2(service); */
+        concurrentTestRaceCondition.test2(service);*/
 
         //testing 1.1
-       /* final int numberOfAccounts = 100;
+        final int numberOfAccounts = 100;
         final int nPairs=8;
         final int nTrials=100_000;
 
         ConcurrentTestRaceCondition concurrentTestRaceCondition=
-                new ConcurrentTestRaceCondition(new LockAccounts(numberOfAccounts),numberOfAccounts,nPairs,nTrials);
+                new ConcurrentTestRaceCondition(new CASAccounts(numberOfAccounts),numberOfAccounts,nPairs,nTrials);
         ExecutorService service= Executors.newCachedThreadPool();
         concurrentTestRaceCondition.test1(service);
-        System.out.println("passed");*/
+        System.out.println("passed");
 
     /*    final int numberOfAccounts = 100;
         final int nPairs=8;
@@ -63,7 +63,7 @@ public class Runner {
         //applyTransactionsLoop(numberOfAccounts, numberOfTransactions, () -> new UnsafeAccounts(numberOfAccounts));
         //applyTransactionsCollect(numberOfAccounts, numberOfTransactions, () -> new LockAccounts(numberOfAccounts));
         //applyTransactionsCollect(numberOfAccounts, numberOfTransactions, () -> new UnsafeAccounts(numberOfAccounts));
-        applyTransactionsCollect(numberOfAccounts, numberOfTransactions, () -> new LockAccountsFast(numberOfAccounts));
+        //applyTransactionsCollect(numberOfAccounts, numberOfTransactions, () -> new LockAccountsFast(numberOfAccounts));
     }
 
     public static void testAccounts(Accounts accounts, final int n) {
@@ -166,8 +166,13 @@ class ConcurrentTestRaceCondition extends Test{
         this.numberOfAccounts=numberOfAccounts;
         getSum=new AtomicInteger(0);
         depositSum=new AtomicInteger(0);
+
+        //for test 1
         this.startBarrier = new CyclicBarrier(nPairs + 1);
-        this.stopBarrier = new CyclicBarrier(nPairs + 1);;
+        this.stopBarrier = new CyclicBarrier(nPairs + 1);
+        //for test 2
+        //this.startBarrier = new CyclicBarrier(nPairs + 2);
+        //this.stopBarrier = new CyclicBarrier(nPairs + 2);
     }
     void test1(ExecutorService pool){
         try{
@@ -176,12 +181,12 @@ class ConcurrentTestRaceCondition extends Test{
             }
             startBarrier.await();
             stopBarrier.await();
-            int sumBalance=accounts.sumBalances();
-            assertEquals(sumBalance,depositSum.get());
-            System.out.println(sumBalance +" equals "+depositSum.get());
-            for(int i:((LockAccountsFast)accounts).sums){
+            //int sumBalance=accounts.sumBalances();
+            assertEquals(accounts.sumBalances(),depositSum.get());
+            System.out.println(accounts.sumBalances() +" equals "+depositSum.get());
+            /*for(int i:((LockAccountsFast)accounts).sums){
                 System.out.println(i);
-            }
+            }*/
         }catch (Exception ex){
             throw new RuntimeException(ex);
         }
