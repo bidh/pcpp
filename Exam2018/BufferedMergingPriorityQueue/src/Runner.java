@@ -1,4 +1,7 @@
-import java.util.function.Function;  
+import java.util.concurrent.CyclicBarrier;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.function.Function;
 import java.util.Random;
 import java.util.Arrays;
 
@@ -12,6 +15,8 @@ public class Runner {
 
     // my command line looks like >>> rm -f *.class &&javac Runner.java && java Runner 3445 5_000 4 99
     public static void main(String[] args) {
+
+
         final int seed = useArg(args,0,45678);
         final int n = useArg(args,1,10_000_000);
         final int extractFract = useArg(args,2,4);       
@@ -35,9 +40,9 @@ public class Runner {
         timePQ(a,extract,(x)-> new BufferedPQ        (new Parameters(x,0,x.length,0,bufLen,cutOff,maxDepth,false,  new SerialPQPair())),  "BufferedPQ Ser/Serial");
 
         // // the following works if you happen to come up with something that looks like my solution; you can try to do this or you can adjust the calls -- up to you
-         timePQ(a,extract,(x)-> new BufferedPQ        (new Parameters(x,0,x.length,0,bufLen,cutOff,maxDepth,false,  new ParallelPQPair())),"BufferedPQ Par/Serial");
-       //  timePQ(a,extract,(x)-> new BufferedPQ        (new Parameters(x,0,x.length,0,bufLen,cutOff,maxDepth,true,new SerialPQPair())),  "BufferedPQ Ser/Parallel");
-        // timePQ(a,extract,(x)-> new BufferedPQ        (new Parameters(x,0,x.length,0,bufLen,cutOff,maxDepth,true,new ParallelPQPair())),"BufferedPQ Par/Parallel");
+        timePQ(a,extract,(x)-> new BufferedPQP       (new Parameters(x,0,x.length,0,bufLen,cutOff,maxDepth,false,  new ParallelPQPair())),"BufferedPQ Par/Serial");
+        // timePQ(a,extract,(x)-> new BufferedPQ        (new Parameters(x,0,x.length,0,bufLen,cutOff,maxDepth,true,new SerialPQPair())),  "BufferedPQ Ser/Parallel");
+
         // timePQ(a,extract,(x)-> new BufferedPQSolution(new Parameters(x,0,x.length,0,bufLen,cutOff,maxDepth,false,  new SerialPQPair())),  "Solution Ser/Serial");
         // timePQ(a,extract,(x)-> new BufferedPQSolution(new Parameters(x,0,x.length,0,bufLen,cutOff,maxDepth,true,new SerialPQPair())),  "Solution Par/Serial");
         
@@ -166,5 +171,89 @@ public class Runner {
         public double check() { return (start==0 ? spent : System.nanoTime()-start+spent)/1e9; }
         public void pause() { if (start != 0) { spent += System.nanoTime()-start; start = 0; } }
         public void play() { if (start == 0) start = System.nanoTime(); }
+    }
+}
+class ConcurrentTest extends Test{
+    protected CyclicBarrier startBarrier,stopBarrier;
+    protected final BoundedBufferThreadMerge boundedBuffer;
+    protected final int nPairs, nrTrials;
+    protected final AtomicInteger insertSum,getSum;
+
+    public ConcurrentTest(BoundedBufferThreadMerge boundedBuffer,
+                                int nPairs,
+                                int nTrials){
+        this.boundedBuffer=boundedBuffer;
+        this.nPairs=nPairs;
+        this.nrTrials=nTrials;
+        insertSum=new AtomicInteger(0);
+        getSum=new AtomicInteger(0);
+        this.startBarrier = new CyclicBarrier(2*nPairs + 1);
+        this.stopBarrier = new CyclicBarrier(2*nPairs + 1);;
+    }
+    void test(ExecutorService pool){
+        try{
+            for(int i=0;i<nPairs;i++){
+                pool.execute(new Producer());
+                pool.execute(new Consumer());
+            }
+            startBarrier.await();
+            stopBarrier.await();
+            assertEquals(insertSum.get(),getSum.get());
+        }catch (Exception ex){
+            throw new RuntimeException(ex);
+        }
+    }
+
+    class Producer implements Runnable{
+        public void run(){
+            try{
+                Random random=new Random();
+                int sum=0;
+                startBarrier.await();
+                for (int i=nrTrials;i>0;--i){
+                    int item=random.nextInt();
+                    boundedBuffer.insert(item);
+                    sum+=item;
+                }
+                insertSum.getAndAdd(sum);
+                stopBarrier.await();
+            }catch (Exception ex){
+                throw new RuntimeException(ex);
+            }
+        }
+    }
+    class Consumer implements Runnable{
+        public void run(){
+            try{
+                startBarrier.await();
+                int sum=0;
+                Integer item;
+                for(int i=nrTrials;i>0;--i){
+                    item=boundedBuffer.getMin();
+                    if(item!=null){
+                        sum+=item;
+                    }else{
+                        i++;
+                    }
+                }
+                getSum.getAndAdd(sum);
+                stopBarrier.await();
+            }catch (Exception ex){
+                throw new RuntimeException(ex);
+            }
+        }
+    }
+}
+
+
+class Test {
+    public static void assertEquals(int x, int y) throws Exception {
+        if (x != y)
+            throw new Exception(String.format("ERROR: %s not equal to %s%n", x, y));
+    }
+
+    public static void assertTrue(boolean b) throws Exception {
+        if (!b)
+            throw new Exception(String.format("ERROR: assertTrue"));
     }
 }

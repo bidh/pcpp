@@ -5,12 +5,13 @@ import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.*;
 import java.util.function.*;
 
 public class Runner {
     public static void main(String[] args) {
-       // final int numberOfAccounts = 10;
+        //final int numberOfAccounts = 10;
        // testAccounts(new UnsafeAccounts(numberOfAccounts), numberOfAccounts);
         /* Question 1.2
         final int nPairs=1;
@@ -30,17 +31,17 @@ public class Runner {
         final int nTrials=1000;
 
         ConcurrentTestRaceCondition concurrentTestRaceCondition=
-                new ConcurrentTestRaceCondition(new STMAccounts(numberOfAccounts),numberOfAccounts,nPairs,nTrials);
+                new ConcurrentTestRaceCondition(new CASAccounts(numberOfAccounts),numberOfAccounts,nPairs,nTrials);
         ExecutorService service= Executors.newCachedThreadPool();
-        concurrentTestRaceCondition.test2(service);*/
-
+        concurrentTestRaceCondition.test2(service);
+        */
         //testing 1.1
         final int numberOfAccounts = 100;
         final int nPairs=8;
         final int nTrials=100_000;
 
         ConcurrentTestRaceCondition concurrentTestRaceCondition=
-                new ConcurrentTestRaceCondition(new CASAccounts(numberOfAccounts),numberOfAccounts,nPairs,nTrials);
+                new ConcurrentTestRaceCondition(new STMAccounts(numberOfAccounts),numberOfAccounts,nPairs,nTrials);
         ExecutorService service= Executors.newCachedThreadPool();
         concurrentTestRaceCondition.test1(service);
         System.out.println("passed");
@@ -57,13 +58,32 @@ public class Runner {
 
 
 
-        final int numberOfTransactions = 1000;
+        //final int numberOfTransactions = 1000;
         //applyTransactionsLoop(numberOfAccounts, numberOfTransactions, () -> new LockAccountsFast(numberOfAccounts));
         //applyTransactionsLoop(numberOfAccounts, numberOfTransactions, () -> new LockAccounts(numberOfAccounts));
         //applyTransactionsLoop(numberOfAccounts, numberOfTransactions, () -> new UnsafeAccounts(numberOfAccounts));
         //applyTransactionsCollect(numberOfAccounts, numberOfTransactions, () -> new LockAccounts(numberOfAccounts));
         //applyTransactionsCollect(numberOfAccounts, numberOfTransactions, () -> new UnsafeAccounts(numberOfAccounts));
         //applyTransactionsCollect(numberOfAccounts, numberOfTransactions, () -> new LockAccountsFast(numberOfAccounts));
+
+
+        //performance testing 1.7.3
+
+        //final int numberOfTransactions=100_000;
+        //final int numberOfAccounts=1000;
+
+        /*for (int c=1; c<=8; c++) {
+            final int threadCount = c;
+           /* Mark7(String.format("ParallLoopLockAccountsFast %6d", threadCount),
+                    i -> perFormanceTestingLoop(new LockAccountsFast(numberOfAccounts),numberOfAccounts, numberOfTransactions));
+            Mark7(String.format("ParallLoopUnsafeAccounts %6d", threadCount),
+                    i -> perFormanceTestingLoop(new UnsafeAccounts(numberOfAccounts),numberOfAccounts, numberOfTransactions));
+
+            Mark7(String.format("ParallCollectLockAccountsFast %6d", threadCount),
+                    i -> perFormanceTestingCollect(new LockAccountsFast(numberOfAccounts),numberOfAccounts, numberOfTransactions));
+            Mark7(String.format("ParallCollectUnsafeAccounts %6d", threadCount),
+                    i -> perFormanceTestingCollect(new UnsafeAccounts(numberOfAccounts),numberOfAccounts, numberOfTransactions));
+        }*/
     }
 
     public static void testAccounts(Accounts accounts, final int n) {
@@ -99,7 +119,7 @@ public class Runner {
         System.out.printf(accounts.getClass() + " passed sequential tests\n");
     }
     // Question 1.7.1
-    private static void applyTransactionsLoop(int numberOfAccounts, int numberOfTransactions,
+    private static long applyTransactionsLoop(int numberOfAccounts, int numberOfTransactions,
             Supplier<Accounts> generator) {
         // remember that if "from" is -1 in transaction then it is considered a deposit
         // otherwise it is a transfer.
@@ -115,7 +135,8 @@ public class Runner {
                 accounts.transfer(t.from,t.to,t.amount);
             }
         });
-        printBalance(accounts);
+        return accounts.sumBalances();
+        //printBalance(accounts);
     }
     private static void printBalance(Accounts accounts){
         int[] Accounts=accounts.getAccounts();
@@ -126,7 +147,7 @@ public class Runner {
     }
 
     // Question 1.7.2
-    private static void applyTransactionsCollect(int numberOfAccounts, int numberOfTransactions,
+    private static long applyTransactionsCollect(int numberOfAccounts, int numberOfTransactions,
                                                  Supplier<Accounts> generator) {
         // remember that if "from" is -1 in transaction then it is considered a deposit
         // otherwise it is a transfer.
@@ -148,7 +169,63 @@ public class Runner {
             a1.transferAccount(a2);
             return a1;
         }));
-        printBalance(result.get());
+        return result.get().sumBalances();
+    }
+
+    private static long perFormanceTestingLoop(Accounts accounts,int numberOfAccounts,int numberOfTransactions){
+        return applyTransactionsLoop(numberOfAccounts, numberOfTransactions, () -> new LockAccountsFast(numberOfAccounts));
+    }
+    private static long perFormanceTestingCollect(Accounts accounts,int numberOfAccounts,int numberOfTransactions){
+        return applyTransactionsCollect(numberOfAccounts, numberOfTransactions, () -> new LockAccountsFast(numberOfAccounts));
+    }
+
+    private static class Timer {
+        private long start, spent = 0;
+        public Timer() { play(); }
+        public double check() { return (System.nanoTime()-start+spent)/1e9; }
+        public void pause() { spent += System.nanoTime()-start; }
+        public void play() { start = System.nanoTime(); }
+    }
+
+    // NB: Modified to show microseconds instead of nanoseconds
+
+    public static double Mark7(String msg, IntToDoubleFunction f) {
+        int n = 10, count = 1, totalCount = 0;
+        double dummy = 0.0, runningTime = 0.0, st = 0.0, sst = 0.0;
+        do {
+            count *= 2;
+            st = sst = 0.0;
+            for (int j=0; j<n; j++) {
+                Timer t = new Timer();
+                for (int i=0; i<count; i++)
+                    dummy += f.applyAsDouble(i);
+                runningTime = t.check();
+                double time = runningTime * 1e6 / count; // microseconds
+                st += time;
+                sst += time * time;
+                totalCount += count;
+            }
+        } while (runningTime < 0.25 && count < Integer.MAX_VALUE/2);
+        double mean = st/n, sdev = Math.sqrt((sst - mean*mean*n)/(n-1));
+        System.out.printf("%-25s %15.1f us %10.2f %10d%n", msg, mean, sdev, count);
+        return dummy / totalCount;
+    }
+
+    public static void SystemInfo() {
+        System.out.printf("# OS:   %s; %s; %s%n",
+                System.getProperty("os.name"),
+                System.getProperty("os.version"),
+                System.getProperty("os.arch"));
+        System.out.printf("# JVM:  %s; %s%n",
+                System.getProperty("java.vendor"),
+                System.getProperty("java.version"));
+        // The processor identifier works only on MS Windows:
+        System.out.printf("# CPU:  %s; %d \"cores\"%n",
+                System.getenv("PROCESSOR_IDENTIFIER"),
+                Runtime.getRuntime().availableProcessors());
+        java.util.Date now = new java.util.Date();
+        System.out.printf("# Date: %s%n",
+                new java.text.SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ").format(now));
     }
 }
 class ConcurrentTestRaceCondition extends Test{

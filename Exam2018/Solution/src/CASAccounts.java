@@ -30,7 +30,7 @@ public class CASAccounts implements Accounts{
             value=get(to);
             newValue=value+amount;
         }while(!accounts[to].compareAndSet(value,newValue));
-        globalSum.getAndAdd(newValue);
+        globalSum.getAndAdd(amount);
     }
 
     public void transfer(int from, int to, int amount) {
@@ -41,9 +41,9 @@ public class CASAccounts implements Accounts{
         }while(!accounts[from].compareAndSet(f,newValue));
 
         do{
-            t=accounts[from].get();
+            t=accounts[to].get();
             newValue1=t+amount;
-        }while(!accounts[to].compareAndSet(f,newValue1));
+        }while(!accounts[to].compareAndSet(t,newValue1));
 
     }
 
@@ -55,7 +55,7 @@ public class CASAccounts implements Accounts{
                 value=accounts[i].get();
                 newValue=value+other.get(i);
             }while(!accounts[i].compareAndSet(value,newValue));
-            globalSum.getAndAdd(newValue);
+            globalSum.getAndAdd(other.get(i));
         }
 
     }

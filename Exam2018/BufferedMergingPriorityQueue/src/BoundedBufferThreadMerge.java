@@ -7,7 +7,7 @@ public class BoundedBufferThreadMerge implements PQ, Runnable {
     int[] buffer;
     int first,last; // first points at the next one to take, last at the next to insert
     // equals means empty; wrap around 
-
+    Object lock=new Object();
     PQ left,right;
 
     boolean finished = false;
@@ -69,31 +69,41 @@ public class BoundedBufferThreadMerge implements PQ, Runnable {
     
     private void doInsert(int item) { // call only if not full
         assert(!isFull());
-        buffer[last] = item;
-        last ++;
-        if(last >= buffer.length) last = last - buffer.length;
+        synchronized (lock){
+            buffer[last] = item;
+            last ++;
+            if(last >= buffer.length) last = last - buffer.length;
+        }
         assert(first != last);
     }
     public void insert(int item) {
             while( isFull() && ! finished ) {
             }
-            doInsert(item);
+            synchronized (lock){
+                doInsert(item);
+            }
     }
     private int doTake() { // call only if not empty
         assert(!isEmpty() );
-        int res = buffer[first];
-        if( res != Integer.MAX_VALUE ) {
-            first = first+1;
-            if(first >= buffer.length) first = first - buffer.length;
+        synchronized (lock){
+            int res = buffer[first];
+            if( res != Integer.MAX_VALUE ) {
+                first = first+1;
+                if(first >= buffer.length) first = first - buffer.length;
+            }
+            if(res == Integer.MAX_VALUE ) finished = true;
+            return res;
         }
-        if(res == Integer.MAX_VALUE ) finished = true;
-        return res;
+
     }
     public int getMin() {
         if(finished) return Integer.MAX_VALUE;
             while( isEmpty() ) {          
             }
-            int r = doTake();
+            int r;
+            synchronized (lock){
+                r = doTake();
+            }
             return r;
     }
     public void print(int d) {

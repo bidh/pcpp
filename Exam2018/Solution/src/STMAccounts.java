@@ -42,6 +42,8 @@ public class STMAccounts implements Accounts {
     public void transfer(int from, int to, int amount) {
         atomic(()->{
             accounts[from].getAndIncrement(-amount);
+        });
+        atomic(()->{
             accounts[to].getAndIncrement(amount);
         });
     }
